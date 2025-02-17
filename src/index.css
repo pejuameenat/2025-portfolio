@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  /* background-color: black; */
+  
+}
+
+ .services-image:nth-child(1){
+  border:'1px solid red';
+ }
+
+ .overlay{
+  background-image: linear-gradient(54deg, #34d399, #fff );
+  transition: 0.8s ease;
+ }
+
+ .services-image:hover .overlay{
+  opacity:1;
+  height:100%
+ }
+
+ .overlay img {
+  width: 20px;
+}
+ 
+ 
