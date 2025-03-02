@@ -34,16 +34,16 @@ const Skills = ({ currentElement }) => {
     },
     {
       id: 4,
-      name: "typescript",
+      name: "reactjs",
       icon: (
-        <SiTypescript className="block mx-auto text-3xl text-black icon" />
+        <SiReact className="block mx-auto text-3xl text-black icon" />
       ),
     },
     {
       id: 5,
-      name: "reactjs",
+      name: "typescript",
       icon: (
-        <SiReact className="block mx-auto text-3xl text-black icon" />
+        <SiTypescript className="block mx-auto text-3xl text-black icon" />
       ),
     },
     {

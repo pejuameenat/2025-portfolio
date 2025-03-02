@@ -313,3 +313,19 @@
         <img src="/public/plus.svg" alt="plus icon" />
         Create Order
       </button> */}
+
+
+
+      ///add expense
+
+// localStorage.removeItem('userRole')
+      // Clear Zustand store based on the logged-in user's role
+      //  const userRole = localStorage.getItem('userRole');
+      //  if (userRole === 'STORE_OWNER') {
+        //  } else if (userRole === 'STORE_STAFF') {
+          //    clearStaff(); // Clear only staff state
+//  }
+          
+
+
+ 

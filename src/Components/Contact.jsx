@@ -47,7 +47,7 @@ const Contact = ({ currentElement }) => {
                     placeholder="Enter Name"
                     className="bg-emerald-50 p-3 w-full rounded-md outline-none focus:outline focus:outline-2 focus:outline-emerald-400"
                   />
-                  {errors.from_name && <span>First Name is required</span>}
+                  {errors.from_name && <span className="text-red-600">First Name is required</span>}
                 </div>
                 <div className="lg:w-[50%]">
                   <label htmlFor="lastName" className="pt-2 block">
@@ -73,7 +73,7 @@ const Contact = ({ currentElement }) => {
                   placeholder="Enter Email"
                   className="bg-emerald-50  p-3 w-full rounded-md outline-none focus:outline focus:outline-2 focus:outline-emerald-400"
                 />
-                {errors.reply_to && <span>Email is required</span>}
+                {errors.reply_to && <span className="text-red-500">Email is required</span>}
               </div>
               <div>
                 <label htmlFor="message" className="pt-2 block">
@@ -85,7 +85,7 @@ const Contact = ({ currentElement }) => {
                   placeholder="Your Message"
                   className="bg-emerald-50  p-3 w-full rounded-md outline-none focus:outline focus:outline-2 focus:outline-emerald-400 min-h-[110px]"
                 />
-                {errors.message && <span>Message is required</span>}
+                {errors.message && <span className="text-red-500">Message is required</span>}
               </div>
               <button
                 type="submit"
