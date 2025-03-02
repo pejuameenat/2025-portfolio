@@ -2,7 +2,7 @@
 import blog from './assets/blog-project-screenshot.jpg';
 import developer from './assets/developer.io-screenshot.jpg';
 import jobify from './assets/jobify.png';
-import nile from '../assets/nile.png'
+import nile from './assets/nile.png'
 
 export const projects = [
     // {
