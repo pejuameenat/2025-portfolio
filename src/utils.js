@@ -2,6 +2,7 @@
 import blog from './assets/blog-project-screenshot.jpg';
 import developer from './assets/developer.io-screenshot.jpg';
 import jobify from './assets/jobify.png';
+import nile from '../assets/nile.png'
 
 export const projects = [
     // {
@@ -14,15 +15,15 @@ export const projects = [
     //   gitHub: 'https://github.com/pejuameenat/guarder',
     // },
   
-    // {
-    //   id: 2,
-    //   image: cocaColaImage,
-    //   altText: 'project-screenshot',
-    //   h2: 'Coca cola clone',
-    //   p: 'A landing page replica of the coca cola website built with react.js, tailwind css, material ui',
-    //   link: 'https://coca-cola-clone-git-master-aminats-projects.vercel.app/',
-    //   gitHub: 'https://github.com/pejuameenat/Coca-Cola-clone',
-    // },
+    {
+      id: 2,
+      image: nile,
+      altText: 'project-screenshot',
+      h2: 'Nile Web App',
+      p: ' An inventory management web application that helps businesses take charge of their inventory system ',
+      link: ' https://app.nile.ng',
+      gitHub: 'https://github.com/pejuameenat/Nile-Merchant-Dashboard',
+    },
   
     // {
     //   id: 3,
