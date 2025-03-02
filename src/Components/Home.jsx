@@ -1,6 +1,5 @@
 import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa6";
 import { FiExternalLink } from "react-icons/fi";
-import Transfer from '../Components/Transfer'
 const Home = ({ currentElement, gradient }) => {
   return (
     <>
@@ -70,7 +69,7 @@ const Home = ({ currentElement, gradient }) => {
                       })} */}
             </div>
           </div>
-          <Transfer/>
+          {/* <Transfer/> */}
         </section>
       )}
     </>
