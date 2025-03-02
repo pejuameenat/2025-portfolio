@@ -20,7 +20,7 @@ export const projects = [
       image: nile,
       altText: 'project-screenshot',
       h2: 'Nile Web App',
-      p: ' An inventory management web application that helps businesses take charge of their inventory system ',
+      p: ' An inventory management full stack web application that helps businesses take charge of their inventory system  built with tailwind css, reactJs, Vite Zustand, and mySQl, radix UI ',
       link: ' https://app.nile.ng',
       gitHub: 'https://github.com/pejuameenat/Nile-Merchant-Dashboard',
     },
@@ -43,25 +43,25 @@ export const projects = [
       link: 'https://pejuameenat.github.io/developer.io/',
       gitHub: 'https://github.com/pejuameenat/developer.io',
     },
+    
     {
       id: 5,
-      image: blog,
-      altText: 'news-image',
-      h2: 'News Blog',
-      p: 'Blog landing page which updates on trending news! built with Html, css, js',
-      link: 'https://news-blog-nine.vercel.app/index.html',
-      gitHub: 'https://github.com/pejuameenat/News-Blog',
-    },
-  
-    {
-      id: 6,
       image: jobify,
       altText: 'movie-image',
       h2: 'Jobify',
-      p: ' A simple landing page for a job posting platform buils with reactJs, tailwind Css, Html, material UI',
+      p: ' A simple landing page for a job posting platform built with reactJs, tailwind Css, Html, material UI, Vite',
       link: 'https://jobify-io.vercel.app/',
       gitHub: 'https://github.com/pejuameenat/jobify.io',
-    },
+  },
+  {
+    id: 6,
+    image: blog,
+    altText: 'news-image',
+    h2: 'News Blog',
+    p: 'Blog landing page which updates on trending news! built with Html, css, js',
+    link: 'https://news-blog-nine.vercel.app/index.html',
+    gitHub: 'https://github.com/pejuameenat/News-Blog',
+  },
 ]
   
 
