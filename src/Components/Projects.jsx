@@ -18,7 +18,7 @@ const Projects = ({ currentElement }) => {
                       className="max-w-full h-full object-cover rounded-xl"
                     />
                     <div className="overlay absolute inset-0 w-full h-[0%] opacity-0 rounded-xl">
-                      <div className="overlay-inner mx-auto my-[2rem] p-[1rem] ">
+                      <div className="overlay-inner mx-auto my-[1.5rem] p-[.5rem] ">
                         <h2 className="text-xl">{item.h2}</h2>
                         <p className="text-[.9rem] py-[.5rem] " >{item.p}</p>
                         <div className="flex">
