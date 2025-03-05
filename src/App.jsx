@@ -24,7 +24,7 @@ const App = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       randomBg();
-    }, 2000);
+    }, 3000);
 
     return () => clearInterval(interval);
   }, []);
