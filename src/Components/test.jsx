@@ -328,4 +328,77 @@
           
 
 
- 
+// const handleRefreshTokenFailure = () => {
+//   const{isStoreOwner, isStoreStaff} = getUserRole()
+//   // Only redirect if not already on an authentication page
+//   if (!isAuthenticatingPage()) {
+//     console.warn("Session expired. Logging out the user...");
+// // Clear role-specific session data
+// if ( isStoreOwner) {
+//   localStorage.removeItem("storeOwnerAccessToken");
+//   localStorage.removeItem("storeOwnerRefreshToken");
+//   localStorage.removeItem("storeOwnerId");
+// } else if ( isStoreStaff) {
+//   localStorage.removeItem("staffAccessToken");
+//   localStorage.removeItem("staffRefreshToken");
+//   localStorage.removeItem("staffId");
+//   // localStorage.removeItem("staffPermissions");
+// }
+//     // Remove cookies
+//     Cookies.remove("storeOwnerAccessToken");
+//     Cookies.remove("storeOwnerRefreshToken");
+//     Cookies.remove("staffAccessToken");
+//     Cookies.remove("staffRefreshToken");
+
+//     // Redirect to login page
+//     window.location.href = "/";
+//   }
+// };
+
+  {/* <button
+                type="button"
+                onClick={() => {
+                  if (duration && amount) {
+                    setChosenPlan({ amount, duration });
+                  }
+                }}
+                className="bg-[#004324] mt-4 text-white font-bold p-2 rounded-md w-full"
+              >
+                Choose Plan
+              </button> */}
+                {/* {!chosenPlan && (
+            <div className="flex w-full p-4 gap-4">
+              <div className="bg-white border-2 border-[#8ED06C] shadow-lg p-4 rounded w-full">
+                <h1>1 month</h1>
+                <p>#5000</p>
+
+                <button
+                  onClick={() =>
+                    setChosenPlan({
+                      amount: 5000,
+                      duration: "1 month",
+                    })
+                  }
+                  className="bg-[#004324] mt-4  text-[#ffffff] font-bold p-2 rounded-md"
+                >
+                  Choose Plan
+                </button>
+              </div>
+              <div className="bg-white border-2 border-[#8ED06C] shadow-lg w-full p-4 rounded">
+                <h1>1 year</h1>
+                <p>#50000</p>
+
+                <button
+                  onClick={() =>
+                    setChosenPlan({
+                      amount: 50000,
+                      duration: "1 year",
+                    })
+                  }
+                  className="bg-[#004324] mt-4 text-[#ffffff] font-bold p-2 rounded-md"
+                >
+                  Choose Plan
+                </button>
+              </div>
+            </div>
+          )} */}
