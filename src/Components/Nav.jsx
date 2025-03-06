@@ -54,7 +54,10 @@ const Nav = ({ tabs, handleChangeTabs, currentElement}) => {
             {tabs.map((item, index) => {
             if (index === 0) return null;
             return (
-              <li className={`transition-all duration-300 ease-in ${currentElement===index?'border-b-2 border-emerald-400 text-emerald-400':''}`} onClick={()=>handleChangeTabs(index)} key={index}>
+              <li className={`transition-all duration-300 ease-in ${currentElement === index ? 'border-b-2 border-emerald-400 text-emerald-400' : ''}`} onClick={() => {
+                handleChangeTabs(index)
+                setIsOpen(false)
+              }} key={index}>
                 <a href="#" className=" block hover:text-emerald-400">
                   {item}
                 </a>
