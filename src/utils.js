@@ -20,7 +20,7 @@ export const projects = [
       image: nile,
       altText: 'project-screenshot',
       h2: 'Nile Web App',
-      p: ' An inventory management full stack web application that helps businesses take charge of their inventory system  built with tailwind css, reactJs, Vite Zustand, and mySQl, radix UI ',
+      p: ' An enterprise inventory management web application that helps businesses take charge of their inventory system  built with tailwind css, reactJs, Vite, Zustand, mongoDB and radix UI ',
       link: ' https://app.nile.ng',
       gitHub: 'https://github.com/pejuameenat/Nile-Merchant-Dashboard',
     },
