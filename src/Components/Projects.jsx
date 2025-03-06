@@ -11,7 +11,7 @@ const Projects = ({ currentElement }) => {
             <div className="grid lg:grid-cols-3 gap-4 mt-20 items-stretch">
               {projects.map((item, index) => {
                 return (
-                  <div className={` services-image relative ${index ===0 ||index===2? 'lg:col-span-2':''}`} key={item.id}>
+                  <div className={` services-image relative ${index ===0? 'lg:col-span-2':''}`} key={item.id}>
                     <img
                       src={item.image}
                       alt={item.altText}

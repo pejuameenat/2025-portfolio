@@ -13,7 +13,7 @@ const Home = ({ currentElement, gradient }) => {
               <span className="text-2xl text-white ">Frontend Developer</span>
               <p className="text-white my-5  leading-7">
                 {" "}
-                I’m a passionate Front-End Web Developer who brings ideas to
+                I’m a driven Front-End Web Developer who brings ideas to
                 life with clean, efficient code. Well-versed with HTML, CSS,
                 JavaScript, Tailwind CSS, Bootstrap, and React, I create
                 responsive, high-performance web solutions that are not just
