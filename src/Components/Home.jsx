@@ -7,7 +7,7 @@ const Home = ({ currentElement, gradient }) => {
         <section className={`transition-all duration-300 ease-in ${gradient}`}>
           <div className="container lg:max-w-[1128px] lg:w-[80%] mx-auto min-h-screen px-4 lg:px-0 flex items-center">
             <div className="lg:max-w-[500px]">
-              <h1 className="text-4xl text-white my-2">
+              <h1 className="text-4xl text-white my-2 font-bold">
                 Hi, I'm Sulaimon Aminat
               </h1>
               <span className="text-2xl text-white ">Frontend Developer</span>
