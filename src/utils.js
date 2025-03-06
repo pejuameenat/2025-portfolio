@@ -16,11 +16,11 @@ export const projects = [
     // },
   
     {
-      id: 2,
+      id: 1,
       image: nile,
       altText: 'project-screenshot',
       h2: 'Nile Web App',
-      p: ' An enterprise inventory management web application that helps businesses take charge of their inventory system  built with tailwind css, reactJs, Vite, Zustand, mongoDB and radix UI ',
+      p: ' An enterprise inventory management web application(where  collaborated with backend devs and designers) that helps businesses take charge of their inventory system  built with tailwind css, reactJs, Vite, Zustand, mongoDB and radix UI (under development).',
       link: ' https://app.nile.ng',
       gitHub: 'https://github.com/pejuameenat/Nile-Merchant-Dashboard',
     },
@@ -35,7 +35,7 @@ export const projects = [
     //   gitHub: 'https://github.com/pejuameenat/Artisan-home',
     // },
     {
-      id: 4,
+      id: 2,
       image: developer,
       altText: 'A man connecting image dots ',
       h2: 'Developer.io',
@@ -45,7 +45,7 @@ export const projects = [
     },
     
     {
-      id: 5,
+      id: 3,
       image: jobify,
       altText: 'movie-image',
       h2: 'Jobify',
@@ -54,7 +54,7 @@ export const projects = [
       gitHub: 'https://github.com/pejuameenat/jobify.io',
   },
   {
-    id: 6,
+    id: 4,
     image: blog,
     altText: 'news-image',
     h2: 'News Blog',

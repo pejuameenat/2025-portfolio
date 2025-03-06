@@ -9,9 +9,9 @@ const Projects = ({ currentElement }) => {
             <h2 className="text-[#333] text-4xl font-bold">Projects</h2>
             <p className="my-4">Every Project has a story behind it, so i hope they excite you as much as they excite me!</p>
             <div className="grid lg:grid-cols-3 gap-4 mt-20 items-stretch">
-              {projects.map((item) => {
+              {projects.map((item, index) => {
                 return (
-                  <div className="services-image relative">
+                  <div className={` services-image relative ${index ===0 ||index===2? 'lg:col-span-2':''}`} key={item.id}>
                     <img
                       src={item.image}
                       alt={item.altText}
