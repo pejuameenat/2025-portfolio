@@ -402,3 +402,33 @@
               </div>
             </div>
           )} */}
+
+
+
+
+// from customers form
+  // const handleConfirm = async () => {
+  //   setFadeOut(true);
+  //   setTimeout(async () => {
+  //     try {
+  //       const response = await axios.post("/api/customers", {
+  //         name: customerName,
+  //         phoneNumber,
+  //         email: emailAddress,
+  //         customerID,
+  //       });
+
+  //       console.log("Customer added successfully:", response.data);
+  //       setIsConfirmationOpen(false);
+  //       setIsFinalConfirmationOpen(true);
+  //       setFadeOut(false);
+
+  //       // Close final confirmation popup after a few seconds
+  //       setTimeout(() => {
+  //         setIsFinalConfirmationOpen(false);
+  //       }, 2000); // Adjust this duration to control how long the popup is displayed
+  //     } catch (error) {
+  //       console.error("Error adding customer:", error);
+  //     }
+  //   }, 300);
+  // };

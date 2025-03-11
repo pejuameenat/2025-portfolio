@@ -18,8 +18,8 @@ const About = ({ currentElement , gradient, handleChangeTabs}) => {
                 with the tech community and learning along the way.
               </p>
               <div className="flex items-center gap-4">
-              <button type="button" className="bg-emerald-600 w-[150px] py-2 rounded-md font-bold hover:bg-emerald-400 text-white transition-all duration-200 ease-in  animate-bounce " onClick={()=>handleChangeTabs(4)}>Hire Me</button>
-              <button type="button" className="bg-transparent w-[150px] py-2 rounded-md border-2 border-emerald-400 font-bold hover:bg-emerald-400 hover:text-white transition-all duration-200 ease-in" onClick={()=>handleChangeTabs(3)}>View Projects</button>
+              <button type="button" className="bg-emerald-600 w-[150px] py-2 rounded-md font-bold hover:bg-emerald-400 text-white   " onClick={()=>handleChangeTabs(4)}>Hire Me</button>
+              <button type="button" className="bg-transparent w-[150px] py-2 rounded-md border-2 border-emerald-400 font-bold hover:bg-emerald-400 hover:text-white transition-all duration-200 ease-in animate-bounce" onClick={()=>handleChangeTabs(3)}>View Projects</button>
 
               </div>
             </div>
