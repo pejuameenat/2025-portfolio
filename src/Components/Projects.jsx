@@ -20,7 +20,7 @@ const Projects = ({ currentElement }) => {
                     <div className="overlay absolute inset-0 w-full h-[0%] opacity-0 rounded-xl">
                       <div className="overlay-inner mx-auto my-[1.5rem] p-[.5rem] ">
                         <h2 className="text-xl">{item.h2}</h2>
-                        <p className="text-[.9rem] py-[.5rem] " >{item.p}</p>
+                        <p className="text-[.85rem] py-[.5rem] " >{item.p}</p>
                         <div className="flex">
                         <a className="cursor-pointer text-black w-[120px] mt-[1.2rem] p-[.5rem] rounded-[5px] border no-underline "
                           href={item.link}

@@ -62,15 +62,15 @@ export const projects = [
     link: 'https://news-blog-nine.vercel.app/index.html',
     gitHub: 'https://github.com/pejuameenat/News-Blog',
   },
-   {
-      id: 5,
-      image: memory,
-      altText: 'screenshot from the game',
-      h2: 'Memory game',
-      p: 'A simple game to challenge your memory built with vanilla javascript, HTML, CSS.',
-      link: ' https://memory-game-rosy-sigma.vercel.app/',
-      gitHub: ' https://github.com/pejuameenat/memory-game',
-    },
+  {
+    id: 5,
+    image: memory,
+    altText: 'screenshot from the game',
+    h2: 'Memory game',
+    p: 'I was inspired by the popular BBN game show and i thought why not turn this exciting concept into code? ready to challenge your memory?  built with javascript, HTML, CSS.',
+    link: ' https://memory-game-rosy-sigma.vercel.app/',
+    gitHub: ' https://github.com/pejuameenat/memory-game',
+  },
 
 ]
   
