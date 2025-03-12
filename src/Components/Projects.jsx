@@ -7,7 +7,7 @@ const Projects = ({ currentElement }) => {
         <section className="">
           <div className="container lg:max-w-[1128px] lg:w-[80%] mx-auto py-24 px-4 lg:px-0 ">
             <h2 className="text-[#333] text-4xl font-bold">Projects</h2>
-            <p className="my-4  lg:max-w-[700px]">Every Project has a story behind it, so i hope they excite you as much as they excite me! One of my favorites is the Memory Challenge Game, inspired by a game show that I love.</p>
+            <p className="my-4  lg:max-w-[700px]">Every Project has a story behind it, so i hope they excite you as much as they excite me! One of my favorites is the Memory Challenge Game, inspired by a game from a show that I saw.</p>
             <div className="grid lg:grid-cols-3 gap-4 mt-20 items-stretch">
               {projects.map((item, index) => {
                 return (
