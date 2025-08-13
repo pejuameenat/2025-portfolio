@@ -9,7 +9,7 @@ const About = ({ currentElement , gradient, handleChangeTabs}) => {
               <h2 className="text-left font-bold text-4xl">About</h2>
               <p className="my-4 leading-7">
                 A great website isn’t just about looks, it’s about delivering a
-                smooth and engaging  <strong className="text-emerald-300 bg-black p-2 rounded-sm -skew-y-12">user experience</strong> . Through my tech journey,
+                smooth and engaging<strong className="p-2 rounded-sm -skew-y-12">user experience.</strong>Through my tech journey,
                 I’ve seen how many websites struggle with usability, making it
                 harder for users to navigate and engage. That’s why I focus on
                 building intuitive, accessible, and visually appealing web
