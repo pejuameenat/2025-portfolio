@@ -9,12 +9,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root{
+  --color-slate-900: #1E2939;
+--color-blue-600: #155DFC;
+--color-blue-700: #1447E6;
+--color-blue-300: #85B4FF;
+}
 html{
   scroll-behavior: smooth;
 }
 body{
   font-family: 'Inter', sans-serif;
-  /* background-color: black; */
+  background-color: var(--color-slate-900);
   
 }
 
@@ -23,7 +29,7 @@ body{
  }
 
  .overlay{
-  background-image: linear-gradient(54deg, #34d399, #fff );
+  background-image: linear-gradient(54deg, var(--color-blue-300), #fff );
   transition: 0.8s ease;
  }
 

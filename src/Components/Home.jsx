@@ -4,7 +4,7 @@ const Home = ({ currentElement, gradient }) => {
   return (
     <>
       {currentElement === 0 && (
-        <section className={`transition-all duration-300 ease-in ${gradient}`}>
+        <section className={`transition-all duration-300 ease-in`}>
           <div className="container lg:max-w-[1128px] lg:w-[80%] mx-auto min-h-screen px-4 lg:px-0 flex items-center">
             <div className="lg:max-w-[500px]">
               <h1 className="text-4xl text-white my-2 font-bold">
@@ -21,7 +21,7 @@ const Home = ({ currentElement, gradient }) => {
               </p>
                <div className="social-links grid grid-cols-2 lg:grid-cols-3 lg:max-w-[400px] mb-4 gap-3">
                 <button className="bg-white shadow-md rounded-md p-2 flex items-center gap-4 hover:scale-110 transition duration-300 ease-in">
-                  <FaGithub className="text-emerald-400 w-10" />
+                  <FaGithub className="text-[--color-blue-600] w-10" />
                   <div className="flex items-center gap-1 ">
                     <a
                       href="https://github.com/pejuameenat"
@@ -35,7 +35,7 @@ const Home = ({ currentElement, gradient }) => {
                   </div>
                 </button>
                 <button className="bg-white shadow-md rounded-md p-2 flex items-center gap-4 hover:scale-110 transition duration-300 ease-in">
-                  <FaLinkedin className="text-emerald-400 w-10" />
+                  <FaLinkedin className="text-[--color-blue-600] w-10" />
                   <div className="flex items-center gap-1">
                     <a
                       aria-label="linkedin-ink"
@@ -50,7 +50,7 @@ const Home = ({ currentElement, gradient }) => {
                 </button>
 
                 <button className="bg-white shadow-md rounded-md p-2 flex  items-center gap-4 hover:scale-110 transition duration-300 ease-in">
-                  <FaTwitter className="text-emerald-400" />
+                  <FaTwitter className="text-[--color-blue-600]" />
                   <div className="flex items-center gap-1">
                     <a
                       aria-label="twitter-link"

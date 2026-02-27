@@ -5,13 +5,13 @@ import { motion, AnimatePresence } from "framer-motion";
 const Nav = ({ tabs, handleChangeTabs, currentElement}) => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="fixed top-0 left-0 w-full bg-white border border-zinc-300 z-50">
-      <div className="container lg:w-[80%] lg:max-w-[1128px] mx-auto flex justify-between items-center pt-1 px-4 lg:px-0">
+    <nav className="fixed top-0 left-0 w-full border-zinc-300 z-50 text-[--color-slate-900] bg-white">
+      <div className="container lg:w-[80%] lg:max-w-[1128px] mx-auto flex justify-between items-center pt-1 px-4 lg:px-0 ">
         <strong
           className="text-3xl font-bold cursor-pointer "
         onClick={()=>handleChangeTabs(0)}
         >
-          Mina<span className="text-emerald-400">Folio</span>
+          Mina<span className="text-[--color-blue-700]">Folio</span>
         </strong>
 
         {/* Desktop Nav */}
@@ -19,8 +19,8 @@ const Nav = ({ tabs, handleChangeTabs, currentElement}) => {
           {tabs.map((item, index) => {
             if (index === 0) return null;
             return (
-              <li className={`transition-all duration-300 ease-in p-3 ${currentElement===index?'border-b-2 border-emerald-400 text-emerald-400':''}`} onClick={()=>handleChangeTabs(index)} key={index}>
-                <a href="#" className="hover:text-emerald-400">
+              <li className={`transition-all duration-300 ease-in p-3 ${currentElement===index?'border-b-2':''}`} onClick={()=>handleChangeTabs(index)} key={index}>
+                <a href="#" className="hover:text-[--color-slate-900] text-[--color-blue-600]">
                   {item}
                 </a>
               </li>
@@ -42,7 +42,7 @@ const Nav = ({ tabs, handleChangeTabs, currentElement}) => {
             animate={{ x: 0 }}
             exit={{ x: "100%" }}
             transition={{ duration: 0.3 }}
-            className="fixed top-0 right-0 h-full w-3/4 bg-white shadow-lg p-6 md:hidden"
+            className="fixed top-0 right-0 h-full w-3/4 bg-[--color-blue-600] shadow-lg p-6 md:hidden text-white"
           >
             <button
               className="absolute top-4 right-4"
@@ -50,15 +50,15 @@ const Nav = ({ tabs, handleChangeTabs, currentElement}) => {
             >
               <X size={28} />
             </button>
-            <ul className="space-y-6 text-lg">
+            <ul className="space-y-6 text-lg pt-10">
             {tabs.map((item, index) => {
             if (index === 0) return null;
             return (
-              <li className={`transition-all duration-300 ease-in ${currentElement === index ? 'border-b-2 border-emerald-400 text-emerald-400' : ''}`} onClick={() => {
+              <li className={`transition-all duration-300 ease-in ${currentElement === index ? 'border-b-2 text-white' : ''}`} onClick={() => {
                 handleChangeTabs(index)
                 setIsOpen(false)
               }} key={index}>
-                <a href="#" className=" block hover:text-emerald-400">
+                <a href="#" className=" block hover:text-[--color-slate-900]">
                   {item}
                 </a>
               </li>

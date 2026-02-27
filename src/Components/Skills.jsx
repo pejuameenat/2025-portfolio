@@ -8,7 +8,8 @@ import {
   SiRedux,
   SiTypescript,
   SiGit,
-  SiCloudflare
+  SiCloudflare,
+  SiFirebase
 } from "react-icons/si";
 
 const Skills = ({ currentElement }) => {
@@ -17,47 +18,47 @@ const Skills = ({ currentElement }) => {
       id: 1,
       name: "html",
       icon: (
-        <SiHtml5 className="block mx-auto  text-3xl text-black icon" />
+        <SiHtml5 className="block mx-auto  text-3xl text-white icon" />
       ),
     },
     {
       id: 2,
       name: "css",
-      icon: <SiCss3 className="block mx-auto text-3xl text-black icon" />,
+      icon: <SiCss3 className="block mx-auto text-3xl text-white icon" />,
     },
     {
       id: 3,
       name: "javascript",
       icon: (
-        <SiJavascript className="block mx-auto text-3xl text-black icon" />
+        <SiJavascript className="block mx-auto text-3xl text-white icon" />
       ),
     },
     {
       id: 4,
       name: "reactjs",
       icon: (
-        <SiReact className="block mx-auto text-3xl text-black icon" />
+        <SiReact className="block mx-auto text-3xl text-white icon" />
       ),
     },
     {
       id: 5,
       name: "typescript",
       icon: (
-        <SiTypescript className="block mx-auto text-3xl text-black icon" />
+        <SiTypescript className="block mx-auto text-3xl text-white icon" />
       ),
     },
     {
       id: 6,
       name: "tailwind Css",
       icon: (
-        <SiTailwindcss className="block mx-auto text-3xl text-black icon" />
+        <SiTailwindcss className="block mx-auto text-3xl text-white icon" />
       ),
     },
     {
       id: 7,
       name: "API's",
       icon: (
-        <SiCloudflare className="block mx-auto text-3xl text-black icon " />
+        <SiCloudflare className="block mx-auto text-3xl text-white icon " />
       ),
     },
     
@@ -65,39 +66,47 @@ const Skills = ({ currentElement }) => {
       id: 8,
       name: "Redux",
       icon: (
-        <SiRedux className="block mx-auto text-3xl text-black icon " />
+        <SiRedux className="block mx-auto text-3xl text-white icon " />
       ),
     },
-    {
+     {
       id: 9,
-      name: "GIT",
+      name: "Firebase",
       icon: (
-        <SiGit className="block mx-auto text-3xl text-black icon " />
+        <SiFirebase className="block mx-auto text-3xl text-white icon" />
       ),
     },
     {
       id: 10,
-      name: "Bootstrap",
+      name: "GIT",
       icon: (
-        <SiBootstrap className="block mx-auto text-3xl text-black icon" />
+        <SiGit className="block mx-auto text-3xl text-white icon " />
       ),
     },
+    {
+      id: 11,
+      name: "Bootstrap",
+      icon: (
+        <SiBootstrap className="block mx-auto text-3xl text-white icon" />
+      ),
+    },
+    
   ];
   return (
     <>
       {currentElement === 2 && (
-        <section className="flex items-center justify-center">
+        <section className="flex items-center justify-center text-white">
           <div className="container lg:max-w-[1000px] lg:w-[70%] mx-auto mt-24 px-4 lg:px-0 ">
-            <h2 className="text-[#333] text-4xl py-4 font-bold">My Skills</h2>
+            <h2 className=" text-4xl py-4 font-bold">My Skills</h2>
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-10">
               {arr.map((item) => {
                 return (
                   <article className=" rounded-md border border-zinc-400 shadow-lg hover:scale-110 transition duration-300 ease-in">
-                    <div className="bg-emerald-300 p-4 relative h-[80px]">
-                      <div className="absolute top-[95%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white  rounded-full w-[60px] h-[60px]">
+                    <div className="bg-[--color-blue-600] p-4 relative h-[80px] rounded-md">
+                      <div className="absolute top-[95%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-[--color-slate-900]  rounded-full w-[60px] h-[60px]">
                         <span className="mx-auto block mt-4">{ item.icon}</span></div>
                     </div>
-                    <h3 className="text-center py-7 capitalize text-lg ">{item.name}</h3>
+                    <h3 className="text-center py-7 capitalize text-lg">{item.name}</h3>
                   </article>
                 )
                 
