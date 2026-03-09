@@ -5,9 +5,9 @@ const Projects = ({ currentElement }) => {
     <>
       {currentElement === 3 && (
         <section className="">
-          <div className="container lg:max-w-[1128px] lg:w-[80%] mx-auto py-24 px-4 lg:px-0 text-white">
-            <h2 className=" text-4xl font-bold">Projects</h2>
-            <p className="my-4  lg:max-w-[700px]">
+          <div className="container lg:max-w-[1128px] lg:w-[80%] mx-auto py-24 px-4 lg:px-0">
+            <h2 className=" text-4xl font-bold text-white">Projects</h2>
+            <p className="my-4  lg:max-w-[700px] text-white">
               Every Project has a story behind it, so i hope they excite you as
               much as they excite me! One of my favorites is the Memory
               Challenge Game, inspired by a game from a show that I saw.
@@ -30,7 +30,7 @@ const Projects = ({ currentElement }) => {
                         <p className="text-[.85rem] py-[.5rem] ">{item.p}</p>
                         <div className="flex">
                           <a
-                            className="cursor-pointer text-black w-[120px] mt-[1.2rem] p-[.5rem] rounded-[5px] border no-underline "
+                            className="cursor-pointer w-[120px] mt-[1.2rem] p-[.5rem] rounded-[5px] border no-underline "
                             href={item.link}
                             target="_blank"
                             rel="noopener noreferrer"

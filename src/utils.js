@@ -1,6 +1,6 @@
 
 import blog from './assets/blog-project-screenshot.jpg';
-import developer from './assets/developer.io-screenshot.jpg';
+import drugly from './assets/drugly.png';
 import jobify from './assets/jobify.png';
 import nile from './assets/nile.png'
 import memory from './assets/memory.png'
@@ -32,11 +32,19 @@ export const projects = [
       p: ' An enterprise inventory management web application(where  collaborated with backend devs and designers) that helps businesses take charge of their inventory system  built with tailwind css, reactJs, Vite, Zustand, mongoDB and radix UI (under development).',
       link: ' https://app.nile.ng',
       gitHub: 'https://github.com/pejuameenat/Nile-Merchant-Dashboard',
-    },
-  
+  },
+     {
+    id: 2,
+    image: drugly,
+    altText: 'A man connecting image dots ',
+    h2: 'Drugly',
+    p: 'A  medication web app, built to help track your medications, built with typescript, react query and firebase',
+    link: 'https://drugly.vercel.app/',
+    gitHub: 'https://github.com/pejuameenat/drugly',
+  },
     
     {
-      id: 2,
+      id: 3,
       image: jobify,
       altText: 'movie-image',
       h2: 'Jobify',
@@ -44,15 +52,7 @@ export const projects = [
       link: 'https://jobify-io.vercel.app/',
       gitHub: 'https://github.com/pejuameenat/jobify.io',
   },
-  {
-    id: 3,
-    image: developer,
-    altText: 'A man connecting image dots ',
-    h2: 'Developer.io',
-    p: 'A simple landing page for connecting early stage developers built with vanilla javascript, HTML, CSS.',
-    link: 'https://pejuameenat.github.io/developer.io/',
-    gitHub: 'https://github.com/pejuameenat/developer.io',
-  },
+  
   {
     id: 4,
     image: blog,

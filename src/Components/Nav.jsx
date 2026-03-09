@@ -19,7 +19,7 @@ const Nav = ({ tabs, handleChangeTabs, currentElement}) => {
           {tabs.map((item, index) => {
             if (index === 0) return null;
             return (
-              <li className={`transition-all duration-300 ease-in p-3 ${currentElement===index?'border-b-2':''}`} onClick={()=>handleChangeTabs(index)} key={index}>
+              <li className={`transition-all duration-300 ease-in p-3 ${currentElement===index?'border-b-2 border-[--color-blue-600]':''}`} onClick={()=>handleChangeTabs(index)} key={index}>
                 <a href="#" className="hover:text-[--color-slate-900] text-[--color-blue-600]">
                   {item}
                 </a>
@@ -54,7 +54,7 @@ const Nav = ({ tabs, handleChangeTabs, currentElement}) => {
             {tabs.map((item, index) => {
             if (index === 0) return null;
             return (
-              <li className={`transition-all duration-300 ease-in ${currentElement === index ? 'border-b-2 text-white' : ''}`} onClick={() => {
+              <li className={`transition-all duration-300 ease-in ${currentElement === index ? 'border-b-2 text-white ' : ''}`} onClick={() => {
                 handleChangeTabs(index)
                 setIsOpen(false)
               }} key={index}>
