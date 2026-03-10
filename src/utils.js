@@ -5,40 +5,20 @@ import jobify from './assets/jobify.png';
 import nile from './assets/nile.png'
 import memory from './assets/memory.png'
 export const projects = [
-    // {
-    //   id: 1,
-    //   image: guardScreenshot,
-    //   altText: 'movie-image',
-    //   h2: 'Guarder-web',
-    //   p: 'A react landing page website for requesting guardsmen services, built with react-js, HTML, CSS',
-    //   link: 'https://guarder-three.vercel.app/',
-    //   gitHub: 'https://github.com/pejuameenat/guarder',
-  // },
-     // {
-    //   id: 3,
-    //   image: ecommerce,
-    //   altText: 'movie-image',
-    //   h2: 'Artisan home',
-    //   p: 'A Modern website for artisans and people who require their services built with vanilla, javascript, HTML, CSS.',
-    //   link: 'https://artisan-home.vercel.app/index.html#',
-    //   gitHub: 'https://github.com/pejuameenat/Artisan-home',
-    // },
-  
     {
       id: 1,
       image: nile,
       altText: 'project-screenshot',
       h2: 'Nile Web App',
-      p: ' An enterprise inventory management web application(where  collaborated with backend devs and designers) that helps businesses take charge of their inventory system  built with tailwind css, reactJs, Vite, Zustand, mongoDB and radix UI (under development).',
+      p: ' An enterprise inventory management web application(where I collaborated with backend devs and designers) that helps businesses take charge of their inventory system  built with tailwind css, reactJs, Vite, Zustand, mongoDB and radix UI (under development).',
       link: ' https://app.nile.ng',
-      gitHub: 'https://github.com/pejuameenat/Nile-Merchant-Dashboard',
   },
      {
     id: 2,
     image: drugly,
     altText: 'A man connecting image dots ',
     h2: 'Drugly',
-    p: 'A  medication web app, built to help track your medications, built with typescript, react query and firebase',
+    p: 'A  medication web app to help track your medications, built with  react, typescript, react query and firebase',
     link: 'https://drugly.vercel.app/',
     gitHub: 'https://github.com/pejuameenat/drugly',
   },
@@ -67,7 +47,7 @@ export const projects = [
     image: memory,
     altText: 'screenshot from the game',
     h2: 'Memory game',
-    p: 'I was inspired by the popular BBN game show and i thought why not turn this exciting concept into code? ready to challenge your memory?  built with javascript, HTML, CSS.',
+    p: 'An exciting memory game inspired by a popular game show, ready to challenge your memory?  built with javascript, HTML, CSS.',
     link: ' https://memory-game-rosy-sigma.vercel.app/',
     gitHub: ' https://github.com/pejuameenat/memory-game',
   },
