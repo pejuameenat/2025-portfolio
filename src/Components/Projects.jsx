@@ -8,21 +8,21 @@ const Projects = ({ currentElement }) => {
           <div className="container lg:max-w-[1128px] lg:w-[80%] mx-auto py-24 px-4 lg:px-0">
             <h2 className=" text-4xl font-bold text-white">Projects</h2>
             <p className="my-4  lg:max-w-[700px] text-white">
-              Every Project has a story behind it, so i hope they excite you as
+              Every Project has a story behind it, so i hope they excites you as
               much as they excite me! One of my favorites is the Memory
-              Challenge Game, inspired by a game from a show that I saw.
+              Challenge Game, inspired by a game from a show that I watched.
             </p>
             <div className="grid lg:grid-cols-3 gap-4 mt-20 items-stretch">
               {projects.map((item, index) => {
                 return (
                   <div
-                    className={` services-image relative ${index === 0 ? "lg:col-span-2" : ""}`}
+                    className={`services-image  relative ${index === 0 ? "lg:col-span-2" : ""}`}
                     key={item.id}
                   >
                     <img
                       src={item.image}
                       alt={item.altText}
-                      className="max-w-full h-full object-cover rounded-xl"
+                      className="max-w-full max-sm:min-h-[250px] lg:h-full object-cover rounded-xl"
                     />
                     <div className="overlay absolute inset-0 w-full h-[0%] opacity-0 rounded-xl">
                       <div className="overlay-inner mx-auto my-[1.5rem] p-[.5rem] ">
@@ -38,12 +38,12 @@ const Projects = ({ currentElement }) => {
                             Live Demo
                           </a>
                           <a
-                            className={`cursor-pointer text-black mt-[1.2rem] p-[.5rem] rounded-[5px] no-underline ${index>0 &&'border'}`}
+                            className={`cursor-pointer text-black mt-[1.2rem] p-[.5rem] rounded-[5px] no-underline ${index !== 1 && index !== 2 && "border"}`}
                             href={item.gitHub}
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            {index > 0 && <FaGithub />}
+                            {index !== 1 && index !== 2 && <FaGithub />}
                           </a>
                         </div>
                       </div>
