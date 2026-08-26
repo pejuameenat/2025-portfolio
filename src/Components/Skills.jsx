@@ -3,12 +3,13 @@ import {
   SiHtml5,
   SiCss3,
   SiTailwindcss,
-  SiBootstrap,
   SiReact,
   SiRedux,
   SiTypescript,
   SiGit,
   SiCloudflare,
+  SiNextdotjs,
+  SiJest,
   SiFirebase,
 } from "react-icons/si";
 
@@ -16,43 +17,39 @@ const Skills = ({ currentElement }) => {
   const arr = [
     {
       id: 1,
-      name: "html",
+      name: 'html',
       icon: <SiHtml5 className="block mx-auto  text-3xl text-white icon" />,
     },
     {
       id: 2,
-      name: "css",
+      name: 'css',
       icon: <SiCss3 className="block mx-auto text-3xl text-white icon" />,
     },
     {
       id: 3,
-      name: "javascript",
+      name: 'javascript',
       icon: <SiJavascript className="block mx-auto text-3xl text-white icon" />,
     },
     {
       id: 4,
-      name: "reactjs",
+      name: 'reactjs',
       icon: <SiReact className="block mx-auto text-3xl text-white icon" />,
     },
     {
       id: 5,
-      name: "typescript",
+      name: 'typescript',
       icon: <SiTypescript className="block mx-auto text-3xl text-white icon" />,
     },
     {
       id: 6,
-      name: "tailwind Css",
+      name: 'tailwind Css',
       icon: (
         <SiTailwindcss className="block mx-auto text-3xl text-white icon" />
       ),
     },
+
     {
       id: 7,
-      name: "Redux",
-      icon: <SiRedux className="block mx-auto text-3xl text-white icon " />,
-    },
-    {
-      id: 8,
       name: "API's",
       icon: (
         <SiCloudflare className="block mx-auto text-3xl text-white icon " />
@@ -60,21 +57,31 @@ const Skills = ({ currentElement }) => {
     },
 
     {
+      id: 8,
+      name: 'NextJs',
+      icon: <SiNextdotjs className="block mx-auto text-3xl text-white icon" />,
+    },
+    {
       id: 9,
-      name: "Firebase",
-      icon: <SiFirebase className="block mx-auto text-3xl text-white icon" />,
+      name: 'Redux',
+      icon: <SiRedux className="block mx-auto text-3xl text-white icon " />,
     },
     {
       id: 10,
-      name: "GIT",
+      name: 'GIT',
       icon: <SiGit className="block mx-auto text-3xl text-white icon " />,
     },
     {
       id: 11,
-      name: "Bootstrap",
-      icon: <SiBootstrap className="block mx-auto text-3xl text-white icon" />,
+      name: 'Firebase',
+      icon: <SiFirebase className="block mx-auto text-3xl text-white icon" />,
     },
-  ];
+    {
+      id: 12,
+      name: 'Jest',
+      icon: <SiJest className="block mx-auto text-3xl text-white icon" />,
+    },
+  ]
   return (
     <>
       {currentElement === 2 && (
