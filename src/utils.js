@@ -27,7 +27,7 @@ export const projects = [
     altText: "hands holding a phone that displays the app look",
     h2: "Sphera",
     p: "A web based football manager game react and typescript.(under development)",
-    link: "https://sphera.gg",
+    link: "https://app.sphera.gg",
   },
   {
     id: 4,
