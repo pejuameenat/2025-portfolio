@@ -30,7 +30,7 @@ const Contact = ({ currentElement }) => {
   };
   return (
     <>
-      {currentElement === 4 && (
+      {currentElement === 5 && (
         <section className="">
           <div className="container lg:max-w-[1000px] lg:w-[60%] mx-auto py-24 px-4 lg:px-0 text-white">
             <h2 className=" font-bold text-4xl py-4">Contact Me</h2>

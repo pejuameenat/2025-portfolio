@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Nav, Home, About, Skills, Projects, Contact } from "./Components";
+import { Nav, Home, About, Skills, Projects, Contact, HowIThink } from "./Components";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 const App = () => {
@@ -18,7 +18,6 @@ const App = () => {
   const [gradient, setGradient] = useState(arrOfGradients[0]);
   const randomBg = () => {
     const randomNumbers = Math.floor(Math.random() * arrOfGradients.length);
-    console.log(arrOfGradients[randomNumbers]);
     setGradient(arrOfGradients[randomNumbers]);
   };
   useEffect(() => {
@@ -29,11 +28,12 @@ const App = () => {
     return () => clearInterval(interval);
   }, []);
 
-  const [tabs, setTab] = useState([
+  const [tabs] = useState([
     "Home",
     "About",
     "Skills",
     "Projects",
+    "How I Think",
     "Contact",
   ]);
   const [currentElement, setCurrentElement] = useState(0);
@@ -43,7 +43,12 @@ const App = () => {
   };
   return (
     <>
-      <ToastContainer autoClose={3000} hideProgressBar={false} closeOnClick newestOnTop={false} />
+      <ToastContainer
+        autoClose={3000}
+        hideProgressBar={false}
+        closeOnClick
+        newestOnTop={false}
+      />
       <Nav
         tabs={tabs}
         currentElement={currentElement}
@@ -58,10 +63,14 @@ const App = () => {
         />
         <Skills currentElement={currentElement} />
         <Projects currentElement={currentElement} />
+        <HowIThink
+          currentElement={currentElement}
+          handleChangeTabs={handleChangeTabs}
+        />
         <Contact currentElement={currentElement} />
       </main>
     </>
-  );
+  )
 };
 
 export default App;
